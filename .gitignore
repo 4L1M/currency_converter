@@ -1,35 +1,17 @@
-# Environments
-.env
-.venv
-env/
-venv/
-ENV/
-env.bak/
-venv.bak/
-
-# Python cache
+# Python
 __pycache__/
 *.py[cod]
-*$py.class
+venv/
+*.env
 
-# Logs
-*.log
+# Логи и временные файлы
 logs/
-
-# Cache
-.cache
-cache/
-
-# Instance files
-instance/
-
-# Static files
-static/css/styles.css.map
+*.log
+*.sqlite
 
 # IDE
-.vscode/
 .idea/
+.vscode/
 
-# OS
+# Системные файлы
 .DS_Store
-Thumbs.db
